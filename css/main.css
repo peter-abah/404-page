@@ -48,6 +48,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: 0.8;
+}
+
 .header {
   margin-top: 2.5rem;
   margin-left: 77px;
@@ -92,4 +96,22 @@ a {
   padding: 1.5rem 43px;
   color: #fff;
   background-color: #333;
+}
+
+.footer {
+  margin: 6rem auto 2rem;
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: #333;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  text-decoration: none;
 }

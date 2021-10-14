@@ -1,0 +1,19 @@
+@use '../variables' as v;
+
+.footer {
+  margin: 6rem auto 2rem;
+  text-align: center;
+}
+
+.footer-text {
+  margin-bottom: 1rem;
+}
+
+.footer-link {
+  color: v.$dark-gray;
+  text-decoration: underline;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
