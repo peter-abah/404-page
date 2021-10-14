@@ -46,3 +46,10 @@ body {
 a {
   text-decoration: none;
 }
+
+.header {
+  margin-top: 2.5rem;
+  margin-left: 77px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
