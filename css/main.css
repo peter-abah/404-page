@@ -54,7 +54,7 @@ a:hover {
 
 .header {
   margin-top: 2.5rem;
-  margin-left: 77px;
+  margin-left: 4.8125rem;
   font-size: 1.5rem;
   font-weight: 700;
   font-family: Inconsolata, Georgia, sans-serif;
@@ -76,22 +76,22 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 100px 120px 0 77px;
+  margin: 6.25rem 7.5rem 4.8125rem;
 }
 
 .main-img {
-  max-width: 540px;
+  max-width: 33.75rem;
   width: 40%;
   height: auto;
 }
 
 .main-text-wrapper {
-  max-width: 600px;
+  max-width: 37.5rem;
   width: 40%;
 }
 
 .main-heading {
-  margin-bottom: 36px;
+  margin-bottom: 2.25rem;
   font-size: 4rem;
 }
 
@@ -106,13 +106,13 @@ a:hover {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1.5rem 43px;
+  padding: 1.5rem 2.7rem;
   color: #fff;
   background-color: #333;
   font-size: 0.875rem;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 75rem) {
   .main-heading {
     font-size: 3.5rem;
   }
@@ -121,10 +121,10 @@ a:hover {
     font-size: 1.2rem;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 64rem) {
   .main {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
   }
 
   .main-text-wrapper {
@@ -140,7 +140,7 @@ a:hover {
 
   .main-img {
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 3.75rem;
   }
 
   .main-text-wrapper {
@@ -149,7 +149,7 @@ a:hover {
 }
 @media screen and (max-width: 32.5rem) {
   .main-img {
-    max-width: 280px;
+    max-width: 17.5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -166,6 +166,7 @@ a:hover {
 .footer {
   margin: 7rem auto 2rem;
   text-align: center;
+  font-size: 0.875rem;
 }
 
 .footer-text {
