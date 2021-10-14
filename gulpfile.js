@@ -1,12 +1,24 @@
-const gulp = require('gulp');
+const { src, dest, watch} = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const postcss = require('gulp-postcss');
 
-gulp.task('css', () => {
-  let processors = [];
+const generateCSS = (callback) => {
+  const processors = [
+    require('autoprefixer'),
+    //require('cssnano'),
+  ];
 
-  return gulp.src('./src/sass/*.scss')
+  src('./src/sass/*.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
-    .pipe(gulp.dest('./css'));
-});
+    .pipe(dest('./css'));
+
+  callback();
+};
+
+const watchFiles = (callback) => {
+  watch('.src/sass/*.scss', generateCSS)
+}
+
+exports.generateCSS = generateCSS
+exports.watch = watchFiles
