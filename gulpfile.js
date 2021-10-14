@@ -17,8 +17,9 @@ const generateCSS = (callback) => {
 };
 
 const watchFiles = (callback) => {
-  watch('.src/sass/*.scss', generateCSS)
+  watch('src/sass/*.scss', generateCSS);
+  callback();
 }
 
-exports.generateCSS = generateCSS
-exports.watch = watchFiles
+exports.generateCSS = generateCSS;
+exports.watch = watchFiles;

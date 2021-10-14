@@ -32,3 +32,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body {
+  box-sizing: border-box;
+  font-family: "Space Mono", sans-serif;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
