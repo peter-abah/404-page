@@ -23,6 +23,8 @@
 }
 
 .main-link {
+  display: block;
+  width: fit-content;
   padding: 1.5rem 43px;
   color: #fff;
   background-color: v.$dark-gray;

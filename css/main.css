@@ -78,6 +78,10 @@ a {
 }
 
 .main-link {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 1.5rem 43px;
   color: #fff;
   background-color: #333;
