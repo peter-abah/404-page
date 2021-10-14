@@ -1,0 +1,28 @@
+@use '../variables' as v;
+
+.main {
+  margin-top: 12.5rem;
+  margin-left: 77px;
+}
+
+.main img {
+  width: 540px;
+  height: 448px;
+  margin-left: 120px;
+}
+
+.main-heading {
+  margin-bottom: 36px;
+  font-size: 4rem;
+}
+
+.main-info {
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+}
+
+.main-link {
+  padding: 1.5rem 43px;
+  color: #fff;
+  background-color: v.$dark-gray;
+}
