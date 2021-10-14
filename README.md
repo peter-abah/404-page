@@ -2,7 +2,7 @@
 Solution for a challenge from  [Devchallenges.io](httpS://devchallenges.io)
 
 
-[DEMO](https://[eter-abah.github.io/404-page]) | [SOLUTION](link) | [CHALLENGE](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
+[DEMO](https://peter-abah.github.io/404-page) | [SOLUTION](https://devchallenges.io/solutions/xA5sHfPDB9ZZTQAj6h6g) | [CHALLENGE](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ## Table of Contents
 
