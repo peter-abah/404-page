@@ -35,6 +35,7 @@ table {
 
 body {
   box-sizing: border-box;
+  line-height: 1.5;
   font-family: "Space Mono", sans-serif;
   background-color: #fff;
 }
@@ -52,19 +53,25 @@ a {
   margin-left: 77px;
   font-size: 1.5rem;
   font-weight: 700;
-  font-family: Incosolata, Georgia, sans-serif;
+  font-family: Inconsolata, Georgia, sans-serif;
 }
 
 .main {
   display: flex;
-  margin-top: 12.5rem;
-  margin-left: 77px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 100px 120px 0 77px;
 }
 
 .main img {
-  width: 540px;
-  height: 448px;
-  margin-right: 120px;
+  max-width: 540px;
+  width: 40%;
+  height: auto;
+}
+
+.main-text-wrapper {
+  max-width: 600px;
+  width: 40%;
 }
 
 .main-heading {
