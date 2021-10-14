@@ -60,6 +60,18 @@ a:hover {
   font-family: Inconsolata, Georgia, sans-serif;
 }
 
+@media screen and (max-width: 48rem) {
+  .header {
+    max-width: 30rem;
+    margin-top: 1.25rem;
+    margin-left: calc((100vw - 30rem) / 2);
+  }
+}
+@media screen and (max-width: 32.5rem) {
+  .header {
+    margin-left: 1.5rem;
+  }
+}
 .main {
   display: flex;
   justify-content: space-between;
@@ -86,6 +98,7 @@ a:hover {
 .main-info {
   margin-bottom: 3rem;
   font-size: 1.5rem;
+  color: #4f4f4f;
 }
 
 .main-link {

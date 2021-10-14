@@ -7,3 +7,17 @@
   font-weight: 700;
   font-family: v.$title-font;
 }
+
+@media screen and (max-width: 48rem) {
+  .header {
+    max-width: 30rem;
+    margin-top: 1.25rem;
+    margin-left: calc((100vw - 30rem) / 2);
+  }
+}
+
+@media screen and (max-width: 32.5rem) {
+  .header {
+    margin-left: 1.5rem;
+  }
+}
