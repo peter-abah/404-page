@@ -1,7 +1,9 @@
+@use '../variables' as v;
+
 body {
   box-sizing: border-box;
-  font-family: $sans-font;
-  background-color: $bg-color;
+  font-family: v.$sans-font;
+  background-color: v.$bg-color;
 }
 
 * {

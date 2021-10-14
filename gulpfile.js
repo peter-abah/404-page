@@ -8,7 +8,7 @@ const generateCSS = (callback) => {
     //require('cssnano'),
   ];
 
-  src('./src/sass/*.scss')
+  src('./src/sass/*')
     .pipe(sass().on('error', sass.logError))
     .pipe(postcss(processors))
     .pipe(dest('./css'));
@@ -17,7 +17,7 @@ const generateCSS = (callback) => {
 };
 
 const watchFiles = (callback) => {
-  watch('src/sass/*.scss', generateCSS);
+  watch('src/sass/*', generateCSS);
   callback();
 }
 
