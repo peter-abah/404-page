@@ -56,6 +56,7 @@ a {
 }
 
 .main {
+  display: flex;
   margin-top: 12.5rem;
   margin-left: 77px;
 }
@@ -63,7 +64,7 @@ a {
 .main img {
   width: 540px;
   height: 448px;
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .main-heading {

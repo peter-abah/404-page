@@ -1,6 +1,7 @@
 @use '../variables' as v;
 
 .main {
+  display: flex;
   margin-top: 12.5rem;
   margin-left: 77px;
 }
@@ -8,7 +9,7 @@
 .main img {
   width: 540px;
   height: 448px;
-  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .main-heading {
