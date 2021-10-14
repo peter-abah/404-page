@@ -1,0 +1,14 @@
+{
+  "name": "404-page",
+  "version": "1.0.0",
+  "description": "A simple 404 page",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bhtml)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Abah",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
